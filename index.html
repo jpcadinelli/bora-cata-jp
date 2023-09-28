@@ -27,7 +27,8 @@
 
     <!-- Resumo do jogo e primeira impressão da página -->
     <main>
-        <img src="./assets/imagens/tela menu inicial.png" alt="Menu inicial">
+        <img src="./assets/imagens/tela menu inicial.png" alt="Menu inicial" class="img-desk">
+        <img src="./assets/imagens/tela menu inicial-mobile.png" alt="Menu inicial" class="img-mob">
         <div class="resumo">
             <h1>Bora Catá</h1>
             <p>é um jogo educativo focado em ensinar sobre reciclagem de maneira lúdica e divertida. Os jogadores assumem o papel de personagens que exploram um mundo virtual com desafios relacionados à coleta seletiva, separação correta dos resíduos e práticas sustentáveis. Através de atividades interativas, os jogadores aprendem sobre a importância da reciclagem, os benefícios ambientais e como contribuir para um futuro mais sustentável. O objetivo é conscientizar e incentivar práticas ecológicas, promovendo a responsabilidade ambiental de forma atraente e educativa.</p>
@@ -36,7 +37,7 @@
 
     <!-- Section do sobre -->
     <section id="sobre">
-        <div class="sobre">
+        <div class="sobre column-reverse">
             <img src="./assets/imagens/joao com vidro na mao - gameplay.png" alt="João com vidro na mão">
             <div class="sobre-texto">
                 <h2>Sobre</h2>
@@ -50,9 +51,9 @@
             </div>
             <img src="./assets/imagens/disposição dos lixos fase 2.png" alt="Gameplay na fase 2">
         </div>
-        <div class="sobre">
+        <div class="sobre column-reverse">
             <img src="./assets/imagens/disposição dos lixos fase 1.png" alt="Gameplay na fase 1">
-            <div class="sobre-texto">
+            <div class="sobre-texto mb-2">
                 <p>Junte-se a nós nessa jornada e vamos jogar e aprender juntos com o <span>Bora Catá!</span></p>
                 <a href="https://boracata.itch.io/bora" class="header-jogar" target="_blank"> Jogue AGORA!</a>
             </div>
@@ -121,7 +122,7 @@
                 <h3>Bateria</h3>
                 <p>Pilhas e baterias contêm substâncias que são perigosas e podem prejudicar a natureza. Por isso, elas não devem ser jogadas no lixo comum. Existem lugares especiais para descartar pilhas e baterias usadas de forma segura. Então, lembre-se: descarte corretamente pilhas e baterias para cuidar do nosso planeta!</p>
             </div>
-            <div class="materiais-img">
+            <div class="materiais-img justify-center">
                 <img src="./assets/imagens/bateria-1.png" alt="Bateria automotiva">
             </div>
         </div>
@@ -130,7 +131,7 @@
                 <h3>Comum</h3>
                 <p>Alguns tipos de lixo não podem ser reciclados, como restos de comida e tecidos. Devemos tentar reduzir a quantidade desse tipo de lixo que produzimos. Compostagem e reutilização são formas de reduzir o lixo comum e ajudar o meio ambiente.</p>
             </div>
-            <div class="materiais-img">
+            <div class="materiais-img justify-center">
                 <img src="./assets/imagens/comum-1.png" alt="Bandeja de comida">
             </div>
         </div>
@@ -167,11 +168,11 @@
         <div class="contato">
                 <p class="obrigatorio">* campos obrigatórios</p>
                 <p class="pt-05 contato-p-email">Email*</p>
-                <input type="text" aria-required="true" placeholder="Escreva seu email">
+                <input type="text" aria-required="true" placeholder="Escreva seu email" class="input-padrão">
                 <p class="pt-05 contato-p-nome">Primeiro Nome</p>
-                <input type="text" placeholder="Escreva seu nome">
+                <input type="text" placeholder="Escreva seu nome" class="input-padrão">
                 <p class="pt-05 contato-p-estado">Estado*</p>
-                <select name="contato-estado" id="contato-estado" aria-required="true">
+                <select name="contato-estado" id="contato-estado" aria-required="true" class="input-padrão">
                     <option value="estado">Selecione o Estado</option> 
                     <option value="ac">Acre</option> 
                     <option value="al">Alagoas</option> 
@@ -202,7 +203,7 @@
                     <option value="to">Tocantins</option> 
                 </select>
                 <p class="pt-05 contato-p-mensagem">Mensagem*</p>
-                <input type="text" aria-required="true" placeholder="Escreva uma mensagem">
+                <input type="text" aria-required="true" placeholder="Escreva uma mensagem" class="mensagem">
                 <button>Enviar</button>
             </div>
     </section>

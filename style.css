@@ -574,7 +574,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 768px) {
     .header-nav {
         display: none;
     }
@@ -594,6 +594,12 @@ footer {
     .icone-menu:hover {
         background: url('./assets/imagens/icone-menu-hamburguer-preto.png') no-repeat;
         background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .resumo p, .sobre p, .como-jogar p, .materiais-texto p {
+        font-size: 16px;
     }
 }
 
